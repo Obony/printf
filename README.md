@@ -38,3 +38,10 @@ The flag characters
 | ' ' | (Blank Space) The argument is padded with a single blank space before a positive number or empty string produced by a signed conversion. |
 | + | A sign (+ or -) should always be placed before a number produced with a signed conversion. By default, only negative numbers have this sign. |
 
+Creating Myown printf in C
+
+
+AUTHORS
+ - LYDIA KAMUYU
+ - FAITH NYABERI
+
