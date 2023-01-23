@@ -2,7 +2,7 @@
 
 This team project is a custom made printf function for the C programming language called _printf. It has been optimized to take various inputs and optional arguments based exactly on how the standard library function printf works. We submitted this as part of the ALX software engineering course requirement for grading.
 
-*Synopsis*
+##**Synopsis**
 
  - This function _printf() writes output to stdout, the standard output stream with the format and options without making use of any of the standard library files. It was written to use a local buffer of 1024 bytes when printing although it can print larger sets of data.
 
@@ -75,14 +75,14 @@ or
 | s | The argument received is expected to be a pointer type char * to an array of characters. Characters from this array are printed up to (but not including) a null byte ('\0'). If precision is specified, then this will determine how many characters are taken into account for printing. The argument received is expected to be a pointer type char * to an array of characters. Characters from this array are printed up to (but not including) a null byte ('\0'). If precision is specified, then this will determine how many characters are taken into account for printing. |
 | p | A void * pointer argument is printed as hexadecimal in lower caps representing an adress in memory. |
 | % | A ' % ' character is written and no conversion is made. The specification is as follows: %%. |
-
 | b | The argument is converted to an unsigned int value and then operated to get its binary representation (base 2). |
 | S | The argument received is expected to be a pointer type char * to an array of characters. Characters from this array are printed up to (but not including) a null byte ('\0'). Non printable characters (0 < ASCII value < 32 or >= 127) are printed this way: \x, followed by the ASCII code value in hexadecimal (upper case - always 2 characters). |
 | r | The argument received is expected to be a pointer type char * to an array of characters. Characters from this array are printed in reverse order up to (but not including) a null byte ('\0'). |
 | R | The argument received is expected to be a pointer type char * to an array of characters. Characters from this array are encoded to ROT13 and printed in order up to (but not including a null byte ('\0'). |
 
-AUTHORS:
 
- - LYDIA KAMUYU
- - FAITH NYABERI
+##**AUTHORS**:
+
+ - **LYDIA KAMUYU**
+ - **FAITH NYABERI**
 
