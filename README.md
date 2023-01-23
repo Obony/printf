@@ -28,7 +28,7 @@ This team project is a custom made printf function for the C programming languag
 
 | An optional length modifier
 
-The flag characters
+##**The flag characters**
 
 | Flag | Description |
 | --------| ------------ |
@@ -38,34 +38,34 @@ The flag characters
 | ' ' | (Blank Space) The argument is padded with a single blank space before a positive number or empty string produced by a signed conversion. |
 | + | A sign (+ or -) should always be placed before a number produced with a signed conversion. By default, only negative numbers have this sign. |
 
-** The field width **
+##**The field width**
 
  - An optional decimal digit string (with nonzero first digit) specifying a minimum field width. If the converted value has fewer characters than the field width, it will be padded with spaces on the left if the flag - is not present, and on the right if it is present. A character * can be used instead of a decimal string. In this case, an argument passed to the function will be taken as the width value.
 
-'printf("%5d", num)';
+| printf("%5d", num); |
 
 or
 
-'printf("%*d", width, num)';
+| printf("%*d", width, num); |
 
-**The precision**
+##**The precision**
 
  - An optional precision, in the form of a period ('.') followed by an optional decimal digit string. A negative precision is taken as if the precision were omitted. This gives the minimum number of digits to appear for d, i, o, u, x, and X conversions, or the maximum number of characters to be printed from a string for s and S conversions. A character * can be used instead of a decimal string. In this case, an argument passed to the function will be taken as the precision value.
 
-'printf("%.3d", num)';
+| printf("%.3d", num); |
 
 or
 
-'printf("%.*d", precision, num)'
+printf("%.*d", precision, num)
 
-**The Length modifiers**
+##**The Length modifiers**
 
 | Modifier | Description |
 | -------------- | ------------- |
 | l | An integer conversion to a long int or unsigned long int argument. |
 | h | An integer conversion to a short int or unsigned short int argument. |
 
-**The Conversion Specifier**
+##**The Conversion Specifier**
 
 | Specifier | Description |
 | --------------- | ------------ |
